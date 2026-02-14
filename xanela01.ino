@@ -1,6 +1,10 @@
-int boton = 2;
-int motorSubir = 3;
-int motorBajar = 4;
+Control Automatizado de Xanela de Coche
+DESCRICIÓN: Este programa imita el comportamiento de una ventanilla eléctrica de un coche.
+Al presionar el pulsador, el motor sube durante 7 segundos. Si se presiona de nuevo mientras se mueve, cambia inmediatamente al motor de bajar (y viceversa) sin detenerse.
+  
+int boton = 2; // Pin de entrada dixital
+int motorSubir = 3; // Pin de saída para o relé de subir
+int motorBajar = 4; // Pin de saída para o relé de baixar
 
 //  VARIABLES
 int estado = 0;        
